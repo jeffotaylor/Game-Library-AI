@@ -1,0 +1,70 @@
+/* Existing dark theme styles... */
+
+/* Add these new game styles */
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  color: white;
+}
+
+.flappy-bird-game {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border: 2px solid #fff;
+  background-color: #1e1e1e;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.bird {
+  position: absolute;
+  left: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  transition: top 0.1s;
+}
+
+.pipe {
+  position: absolute;
+  width: 50px;
+  background-color: green;
+}
+
+.pipe-top {
+  position: absolute;
+  bottom: 100%;
+  background-color: #28a745;
+}
+
+.pipe-bottom {
+  position: absolute;
+  top: 100%;
+  background-color: #28a745;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
