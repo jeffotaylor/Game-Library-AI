@@ -1,0 +1,30 @@
+.game-container {
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.bird {
+  position: absolute;
+  background-color: yellow;
+  border-radius: 50%;
+  left: 100px;
+}
+
+.pipe {
+  position: absolute;
+  background-color: green;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 24px;
+}

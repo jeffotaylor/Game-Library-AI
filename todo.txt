@@ -1,0 +1,10 @@
+1. Create a `Game` component that will house the game logic.
+2. Implement the basic game mechanics for Flappy Bird.
+    - Create a "bird" that is affected by gravity.
+    - Allow the player to make the bird "jump" by clicking.
+    - Create pipes that move from right to left.
+    - Detect collisions between the bird and the pipes.
+    - Implement a scoring system.
+3. Create a main `App` component to display the game and the game selection menu.
+4. Style the website with a modern, sleek, dark theme.
+5. Create a menu to select different games (for now, only Flappy Bird is available).
